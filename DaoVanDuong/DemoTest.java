@@ -1,8 +1,5 @@
 package demotest;
 
-import java.io.*;
-import java.util.*;
-
 public class DemoTest {
 	public int[] quickSort(int[] a, int l, int r) {
 		int key = a[(l + r) / 2], i = l, j = r;
